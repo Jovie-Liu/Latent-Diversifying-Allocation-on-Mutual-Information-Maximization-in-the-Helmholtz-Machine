@@ -25,9 +25,12 @@ Unlike the sampled instances, here is a record of the training dynamics of three
 <br>
 <br>
 This algorithm was tested on several synthetic datasets and demonstrated effectiveness. The simplified version, with substantially reduced computational complexity, was subsequently tested on the MNIST dataset and showed a noticeable improvement in generation quality.
-
 <img src="MNIST_Gen.png" style="width:800px">
 <caption><center> Figure 4:  Generated handwritten digits with the wake-sleep algorithm. </center></caption>
+
+<br>
+<br>
+<br>
 
 <img src="MNIST_MI.png" style="width:800px">
 <caption><center> Figure 5:  Generated handwritten digits with the interleaved mutual information maximization algorithm. </center></caption>
