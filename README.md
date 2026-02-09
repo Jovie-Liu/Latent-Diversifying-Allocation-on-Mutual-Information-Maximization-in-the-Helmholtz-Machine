@@ -4,8 +4,12 @@ One of the author’s significant contributions is to address the latent state c
 
 This work was first introduced in Chapter 2 of my [Ph.D. qualification writing](https://drive.google.com/file/d/1CNLO2FjDNW5RT0Zfc70ynZeVdm-KQsTH/view?pli=1), 2024, as an answer to the qualifying exam question by Prof. Sanjoy Dasgupta. It was later improved and evaluated on additional datasets, detailed in Chapter 2 of my [Ph.D. dissertation](https://www.proquest.com/openview/581cd124d0c14930d566ba9010cecd67/1?pq-origsite=gscholar&cbl=18750&diss=y), 2025. Here is a [pre-print](https://drive.google.com/file/d/1lj9kcIfja8ivIgsRGjZWSTAlB15Z5i3V/view?usp=sharing) of the first stage of this work.
 
-<img src="Wake_Sleep.png" style="width:800px">
-<caption><center> Figure 1:  </center></caption>
+---
+
+The Helmholtz machine [[Peter Dayan, Geoffrey E. Hinton., 1995](https://www.gatsby.ucl.ac.uk/~dayan/papers/hm95.pdf)] is a hierarchical generative model implemented as a fully connected feedback neural network composed of stochastic binary neurons. Its architecture alternates between bottom-up recognition and top-down generation pathways—parameterized by weights $\phi$ and $\theta$, respectively—forming a bidirectional structure that parallels the hierarchical organization of cortical processing in the brain [[Karl Friston, 2008](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000211)]. The recognition network infers latent representations from observed data, while the generative network reconstructs sensory inputs from those latent variables, establishing a self-supervised loop of *analysis-by-synthesis*.
+
+<img src="helmholtz.png" style="width:800px">
+<caption><center> Figure 1: The Helmholtz Machine.</center></caption>
 
 <br>
 <br>
