@@ -8,7 +8,7 @@ This work was first introduced in Chapter 2 of my [Ph.D. qualification writing](
 
 The Helmholtz machine [[Peter Dayan, Geoffrey E. Hinton., 1995](https://www.gatsby.ucl.ac.uk/~dayan/papers/hm95.pdf)] is a hierarchical generative model implemented as a fully connected feedback neural network composed of stochastic binary neurons. Its architecture alternates between bottom-up recognition and top-down generation pathways—parameterized by weights $\phi$ and $\theta$, respectively—forming a bidirectional structure that parallels the hierarchical organization of cortical processing in the brain [[Karl Friston, 2008](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000211)]. The recognition network infers latent representations from observed data, while the generative network reconstructs sensory inputs from those latent variables, establishing a self-supervised loop of *analysis-by-synthesis*.
 
-<img src="helmholtz.png" style="width:600px">
+<img src="helmholtz.png" style="width:660px">
 <caption><center> Figure 1: The Helmholtz Machine.</center></caption>
 
 <br>
