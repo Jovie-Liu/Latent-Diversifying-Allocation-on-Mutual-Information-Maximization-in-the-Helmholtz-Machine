@@ -43,4 +43,4 @@ This algorithm was tested on several synthetic datasets and demonstrated effecti
 <br>
 
 <img src="MNIST_MI.png" style="width:800px">
-<caption><center> Figure 5:  Generated handwritten digits with the interleaved mutual information maximization algorithm. </center></caption>
+<caption><center> Figure 6:  Generated handwritten digits with the interleaved mutual information maximization algorithm. </center></caption>
